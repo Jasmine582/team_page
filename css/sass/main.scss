@@ -2,9 +2,9 @@
 margin: 0;
 padding: 0;
 }
-// img {
-//     width: 100%;
-// }
+img {
+    width: 100%;
+}
 figure {
     margin: 0;
 }
@@ -17,4 +17,13 @@ h1 {
 h2,
 p {
     font-family: 'Poppins', sans-serif;
+}
+.card1 {
+
+    display:grid;
+    grid-template-columns: repeat(2, 138.71px);
+    grid-template-rows: repeat(10, 63px);
+
+
+
 }
